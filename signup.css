@@ -1,0 +1,138 @@
+/*CSS for signup page*/
+
+body {
+    padding:20px;
+    margin:20px;
+    background-color: black;
+}
+
+h1{
+    font-size:70px;
+    color: white;
+}
+
+.name {
+    color: white; 
+    box-sizing: border-box;
+    font-size: 30px;
+    border-style: none;
+    background-color: black;
+    
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 600px;
+}
+.name:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.email {
+    color: white; 
+    font-size: 30px;
+    border-style: none;
+    background-color: black;
+    
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 600px;
+}
+.email:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.user {
+    color: white; 
+    font-size: 30px;
+    border-style: none;
+    background-color: black;
+    
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 600px;
+}
+.user:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.password {
+    color: white; 
+    font-size: 30px;
+    border-style: none;
+    background-color: black;
+    
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 600px;
+}
+.password:hover{
+    color:black;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.btn1 {
+
+    display: inline-block;
+    margin: 40px 0;
+    width: 240px;
+    height: 80px;
+    border: none;
+    background-color: #00a8ff;
+    color: #fff;
+    font-size: 18px;
+    
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.btn1:hover {
+    transform: rotateY(15deg);
+    box-shadow: -20px 0 20px rgb(255, 147, 5);
+}
+
+
+p {
+    color: blanchedalmond;
+}
+
+a {
+    padding: 5px;
+    width: 10%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    content: '';
+    background: white;
+    opacity: 0.5;
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+a:hover {
+    width: 5%;
+    
+}

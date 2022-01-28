@@ -1,0 +1,408 @@
+/*
+CSS for the homepage
+*/
+html{
+    scroll-behavior: smooth;
+}
+.ani{
+    padding-top: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+z{
+    background-color: transparent;
+	color: white;
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: text 6s steps(5) infinite alternate;
+	border-right: 6px solid white;
+	font-size: 70px;
+}
+@keyframes text{
+    
+	0%{
+		transition: 0.5s;
+        width: 0ch;
+	}
+	40%{
+        transition: 0.5s;
+		width: 10ch;
+	}
+	80%{
+        transition: 0.5s;
+		width: 15ch;
+	}
+	100%
+	{
+        transition: 0.5s;
+		width: 20ch;
+    }
+}
+.header {
+    padding: 0px 0px 0px 0px;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("background1.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text h1 {
+    margin: 10px 0px 40px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 70px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+.left{
+    display: inline-block;
+    color: white;
+    align-content: initial;
+    float: left;
+    font-size: 40px;
+    font-family: fantasy;
+}
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    align-content: right;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-links ul li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: blue;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.nav-links ul li a:hover::after {
+    width: 100%;
+}
+/*.img{
+    height: 50px;
+    width: 50px;
+    align-content: right;
+    display: hidden;
+}*/
+
+.text {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text p {
+    font-size: 14px;
+    color: white;
+    margin: 10px 0px 40px;
+}
+
+
+/* -------- Second Section------ */
+
+.second {
+    background-image: linear-gradient(45deg, black, red, royalblue) ;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.h {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.para1 {
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    padding: 10px;
+    line-height: 22px;
+}
+
+.row {
+    align-items: center;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-col{
+    background-color: lightgray;
+    opacity: 0.76;
+    border-radius: 12px;
+    margin-bottom: 5%;
+    flex-basis: 31%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+
+
+
+.second-col:hover {
+    box-shadow: 0 0 100px 0 rgb(0, 0, 2, 100);
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/*--------Third Section------*/
+/*
+.third { 
+    background-image: url("https://media.gettyimages.com/photos/authentic-indian-food-picture-id639389404?s=2048x2048");
+    size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.m {
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+}
+
+.para2 {
+    text-decoration-style: solid;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: inherit;
+    font-size: 35px;
+    color: black;
+    font-weight: 300;
+}
+
+
+.second-col2:hover {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.5);
+}
+
+*/
+
+.gallery{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom:60px;
+    background-color: black;
+}
+.bun {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+.gall{
+    padding: 20px 20px;
+
+}
+
+
+
+
+/*-------Fourth--------*/
+
+.four {
+    background-image: linear-gradient(65deg, yellow, black, white);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.p {
+    font-size: 44px;
+    color: blanchedalmond;
+}
+
+.pre {
+    font-size: 20px;
+    color: white;
+}
+
+.btn3 {
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 0;
+    width: 240px;
+    height: 80px;
+    border: none;
+    background-image: linear-gradient(65deg, white, black, yellow);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.btn4 {
+    text-decoration: none;
+    display: inline-block;
+    margin: 40px 0;
+    width: 240px;
+    height: 80px;
+    border: none;
+    background-image:linear-gradient(120deg, white, black, yellow);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.btn3 a{
+    color: white;
+    text-decoration: none;
+}
+.btn4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn3:hover {
+    box-shadow: 0 0 50px 0 rgb(255, 255, 255, 1);
+}
+
+.btn4:hover {
+    box-shadow: 0 0 50px 0 rgb(255, 255, 255, 1);
+}
+
+.about {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/*   About Us    */
+
+.about{
+    background-image: linear-gradient(120deg, #6d0808, black, white);
+    padding: 10px 10px;
+    margin: auto;
+    text-align: left;
+    color: white;
+    width: 100%;
+
+}
+
+h3{
+    font-weight: 500;
+    font-size: 44px;
+    
+}
+.abt {
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+.abt ul li a{
+    text-decoration: none;
+    color: royalblue;
+}
+.icon_links {
+    flex: 1;
+    text-align: center;
+}
+
+.icon_links ul li {
+    align-content: right;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+
+}
+
+.icon_links ul li a {
+    height: 10px;
+    width: 10px;
+    
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.icon_links ul li a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    margin: auto;
+}
+ .ul{
+    align: left;
+    list-style-type: none;
+ }
+.li{
+    align-items: left;
+}
+
+
+
+/*-----Media Query-----*/
+
+@media only screen and (max-width: 700px){
+    img{
+        height: 20px;
+        width: 20px;
+        display: block;
+    }
+    nav-links ul li {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    }
+
+    nav-links ul li a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
